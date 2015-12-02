@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Alex Panov
+email:       thealexpanov@gmail.com
+author:      Alex Panov
+description: ""
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://alexpanov.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -29,7 +29,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: alexpanov
 bitbucket_username:
 stackoverflow_id:
 twitter_username:
@@ -45,10 +45,10 @@ flattr_button:
 show_sharing_icons: false
 share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
+share_facebook: true
+share_twitter: true
 share_googleplus: false
-share_linkedin: false
+share_linkedin: true
 share_digg: false
 share_tumblr: false
 share_reddit: false
@@ -60,6 +60,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
+paginate:     5
 sass:
   compressed: true
+gems: [jekyll-paginate]
