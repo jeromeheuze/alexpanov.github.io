@@ -1,19 +1,13 @@
 ---
 layout: page
-title: About Pixyll
+title: So who am I?
 permalink: /about/
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+I am a Software Craftsman serving as Lead Software Developer at [Qoints](http://qoints.com).
+ 
+Writing Clean Code using TDD is my passion. I preach what I practice and believe in fundamentals of the Software 
+Craftsmanship. I also ramble a lot about Object Oriented Design.
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
-
-Thanks to the following:
-
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Type Scale](http://type-scale.com/)
+Throughout my career, I have worked for a number of companies and learned 
+a great deal from my colleagues about Software Development that I now want to share in my blog.
