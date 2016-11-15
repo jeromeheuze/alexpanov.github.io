@@ -3,7 +3,7 @@ layout:     post
 title:      Your MVP is bloated!
 date:       2016-11-15 10:02:18
 summary:    Having worked alongside with a number of startups over the past couple of years I have noticed a big issue with how people view the concept of Minimal Viable Product...
-categories: jekyll pixyll
+categories: startups
 ---
 
 Having worked alongside a number of startups over the past couple of years 
