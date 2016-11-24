@@ -14,6 +14,7 @@ comments: true
   {% if page.update_date %}
     <span class="post-meta">Updated: {{ page.update_date | date: site.date_format }}</span><br>
   {% endif %}
+
   <span class="post-meta small">
   {% if page.minutes %}
     {{ page.minutes }} minute read
@@ -21,15 +22,14 @@ comments: true
     {{ minutes }} minute read
   {% endif %}
   </span>
+
 </div>
 
 <article class="post-content">
   {{ content }}
 </article>
 
-{% if site.show_sharing_icons %}
-  {% include share_buttons.html %}
-{% endif %}
+{% include share_buttons.html %}
 
 {% if site.show_post_footers %}
   {% include post_footer.html %}

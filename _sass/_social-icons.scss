@@ -23,3 +23,14 @@
   position: relative;
   top: 0.1em;
 }
+
+#share-buttons a {
+  margin: 0.125rem 0.650rem;
+  position: relative;
+  bottom: 0;
+}
+
+#share-buttons a:hover {
+  margin: 0.125rem 0.650rem;
+  bottom: 0.125rem;
+}
