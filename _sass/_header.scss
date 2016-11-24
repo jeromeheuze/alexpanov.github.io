@@ -1,6 +1,5 @@
 .site-header {
   padding-top: $space-1;
-  padding-bottom: $space-2;
 }
 
 .site-header a {
@@ -12,6 +11,7 @@
 
 .site-header .site-title {
   font-size: $h2;
+  margin-right: 1rem;
 }
 
 .site-nav {
