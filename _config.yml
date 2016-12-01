@@ -2,7 +2,7 @@
 title:       Alex Panov
 email:       thealexpanov@gmail.com
 author:      Alex Panov
-description: ""
+description: "Alex is writing about entrepreneurship and startups in Toronto, Software Development and Craftsmanship"
 baseurl:     ""
 url:         "http://alexpanov.github.io"
 date_format: "%b %-d, %Y"
@@ -22,9 +22,17 @@ ajaxify_contact_form: false
 # (leave blank to disable Disqus)
 disqus_shortname: alexpanov
 
+# Google social
+social:
+  name: Alex Panov
+  links:
+    - https://twitter.com/thealexpanov
+    - https://www.linkedin.com/in/alexpanov
+    - https://github.com/alexpanov
+
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
-facebook_comments: 
+facebook_comments:
 facebook_appid: 
 facebook_comments_number: 10
 
@@ -32,7 +40,9 @@ facebook_comments_number: 10
 github_username: alexpanov
 bitbucket_username:
 stackoverflow_id:
-twitter_username: thealexpanov
+twitter:
+  username: thealexpanov
+
 google_plus_id:
 linkedin_username: alexpanov
 angellist_username:
@@ -63,4 +73,6 @@ permalink:    "/:year/:month/:day/:title"
 paginate:     5
 sass:
   compressed: true
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag

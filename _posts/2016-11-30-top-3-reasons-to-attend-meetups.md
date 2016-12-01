@@ -4,6 +4,7 @@ title:      3 Reasons you must attend Meetups
 date:       2016-12-01 09:12:11
 summary:    Whether you are trying to build a company or just want to be a better professional, meetups is not a luxury, it’s a necessity...
 categories: networking social meetups learning
+image:      /images/meetup.jpg
 ---
 
 Whether you are trying to build a company or just want to be a better professional, meetups is not a luxury, it's a necessity.
