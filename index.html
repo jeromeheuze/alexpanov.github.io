@@ -17,12 +17,11 @@ layout: default
         {{ post.summary }}
         {% endif %}
       </p>
+      {% if post.image %}
       <p class="post-image">
-        {% if post.image %}
-        <img src="{{ site.baseurl }}{{ post.image }}">
-        {% else %} {{ }}
-        {% endif %}
+        <img src="{{ site.baseurl | append: post.image }}">
       </p>
+      {% endif %}
       <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
         <p>
           Continue reading...
