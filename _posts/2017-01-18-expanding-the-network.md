@@ -2,6 +2,7 @@
 layout:     post
 title:      Expanding your Network. Is it too Hard?
 date:       2017-01-18 08:34:52
+excerpt_separator: <!-- End Summary -->
 summary:    |
     I met up with a guy that I will be calling John, for the sake of anonymity, for the first time yesterday.
     I approached John on LinkedIn a couple of days prior. My message to him when connecting was roughly this...
@@ -14,6 +15,8 @@ I met up with a guy that I will be calling John, for the sake of anonymity, for 
 I approached John on LinkedIn a couple of days prior.
 
 My message to him when connecting was roughly this:
+
+<!-- End Summary -->
 
 >
 >Hey, John!
