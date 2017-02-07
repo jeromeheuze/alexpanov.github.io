@@ -2,15 +2,18 @@
 layout:     post
 title:      If you haven't Completed an Online Course you're a Moron!
 date:       2016-11-18 10:43:44
-summary:    For a vey long time I used to be what I considered a big reader. I wouldn't be doing a book every two day or whatever those ridiculous numbers are anytime you read about another billionaire. Nonetheless I'd still read a book every two weeks or so. Now however I realized that I haven't read a single book over the last year... 
+excerpt_separator: <!-- End Summary -->
+summary:    For a very long time I used to be what I considered a big reader. I wouldn't be doing a book every two day or whatever those ridiculous numbers are anytime you read about another billionaire. Nonetheless I'd still read a book every two weeks or so. Now however I realized that I haven't read a single book over the last year...
 categories: learning education
 ---
 
-For a vey long time I used to be what I considered a big reader. 
+For a very long time I used to be what I considered a big reader.
 I wouldn't be doing a book every two day or whatever those ridiculous 
 numbers are anytime you read about another billionaire. 
 Nonetheless *I'd still read a book every two weeks* or so.
- 
+
+<!-- End Summary -->
+
 ![Limitless Stream of Knowledge](/images/books_whirlpool.jpg){:class="img-responsive"}
 
 Now however, I realized that *I haven't read a single book over the last year*. 
