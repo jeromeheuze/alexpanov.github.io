@@ -15,13 +15,13 @@ comments: true
     <span class="post-meta">Updated: {{ page.update_date | date: site.date_format }}</span><br>
   {% endif %}
 
-  <span class="post-meta small">
+  <p class="post-meta small">
   {% if page.minutes %}
     {{ page.minutes }} minute read
   {% else %}
     {{ minutes }} minute read
   {% endif %}
-  </span>
+  </p>
 
   <div class="fb-like" data-href="{{ post.url | prepend: site.baseurl }}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
 
