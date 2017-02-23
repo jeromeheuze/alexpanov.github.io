@@ -8,15 +8,17 @@ layout: default
     {% for post in paginator.posts %}
     <div class="post py3">
       <p class="post-meta">{{ post.date | date: site.date_format }}</p>
-      <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3>
-      </a>
-      <p class="post-summary">
+      <div class="fb-like" data-href="{{ post.url | prepend: site.baseurl }}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
+
         {% if post.excerpt %}
         {{ post.excerpt }}
         {% else %}
+        <p class="post-summary">
         {{ post.summary }}
+        </p>
         {% endif %}
-      </p>
+
       {% if post.image %}
       <p class="post-image">
         <img src="{{ site.baseurl | append: post.image }}">
